@@ -15,6 +15,17 @@ ul {
     padding: 1rem 0;
 }
 
+ul {
+    overflow: hidden; /* Clearfix for floated children */
+    background-color: #333;
+    padding: 1rem 0;
+}
+
+li {
+    float: left; /* Float 1: Navigation items */
+    margin-right: 2rem;
+}
+
 li a {
     display: block;
     color: white;
@@ -26,6 +37,23 @@ li a:hover {
     background-color: #575757;
 }
 
+.img-resume {
+    float: left; /* Float 2: Image gallery */
+    width: 25%;
+    margin: 10px;
+  }
+
+.hobbies section {
+    position: relative; /* Position 3: Container */
+}
+  
+.hobbies img {
+    position: absolute; /* Position 4: Overlay effect */
+    top: 20px;
+    right: 20px;
+    width: 150px;
+}
+  
 section {
     margin: 20px;
     padding: 20px;
