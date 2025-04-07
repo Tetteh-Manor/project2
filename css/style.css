@@ -16,13 +16,13 @@ ul {
 }
 
 ul {
-    overflow: hidden; /* Clearfix for floated children */
+    overflow: hidden; 
     background-color: #333;
     padding: 1rem 0;
 }
 
 li {
-    float: left; /* Float 1: Navigation items */
+    float: left; 
     margin-right: 2rem;
 }
 
@@ -38,21 +38,10 @@ li a:hover {
 }
 
 .img-resume {
-    float: left; /* Float 2: Image gallery */
+    float: left; 
     width: 25%;
     margin: 10px;
   }
-
-.hobbies section {
-    position: relative; /* Position 3: Container */
-}
-  
-.hobbies img {
-    position: absolute; /* Position 4: Overlay effect */
-    top: 20px;
-    right: 20px;
-    width: 150px;
-}
   
 section {
     margin: 20px;
@@ -73,13 +62,13 @@ p {
 
 /* Page-specific Styles */
 /* Home Page */
-.home section section {
+.home section {
     background-color: #e3f2fd;
     border: 2px solid #2196F3;
 }
 
 /* Resume Page */
-.resume section section {
+.resume section {
     background-color: #fff3e0;
     border-left: 4px solid #ff9800;
 }
@@ -94,6 +83,11 @@ p {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-.hobbies section section {
+.hobbies section {
     background-color: #fce4ec;
+    position: relative;
+    position: absolute; 
+    top: 20px;
+    right: 20px;
+    width: 150px;
 }
